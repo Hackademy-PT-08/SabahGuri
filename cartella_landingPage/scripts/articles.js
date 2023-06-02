@@ -1,17 +1,4 @@
-/*
- <div class="card" style="width: 18rem;">
-                    <img src="https://img-prod.sportmediaset.mediaset.it/images/2023/05/30/055116076-d17dc08b-f2e8-4d29-a82c-991719abb0db.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Titolo Articolo</h5>
-                      <p class="card-text">short paragraf dell'articolo</p>
-                    </div>
-                    
-                    <div class="card-body">
-                      <a href="#" class="card-link">link</a>
-                      <a href="#" class="card-link">Another link</a>
-                    </div>
-                  </div>
-*/
+
 
 const articels=[
     {
