@@ -1,0 +1,23 @@
+a{
+    text-decoration: none;
+}
+body{
+    background-color: black;
+}
+
+.myContainer{
+    padding-top: 2rem;
+    
+
+}
+.myTitle{
+    margin-top: 250px;
+}
+
+.mycardContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+ 

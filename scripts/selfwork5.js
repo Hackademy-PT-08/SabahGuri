@@ -95,34 +95,34 @@ Es:
 //dobbiamo creare una funzione
 //stare attenti alle maiuscole
 
-// const products = [
-//   "Smartphone",
-//   "Auricolari Bluetooth",
-//   "Motorino",
-//   "Auto",
-//   "T-shirt",
-//   "Felpa con cappuccio",
-//   "Nano da giardino",
-//   "Videogioco Super Nintendo",
-// ];
+const products = [
+  "Smartphone",
+  "Auricolari Bluetooth",
+  "Motorino",
+  "Auto",
+  "T-shirt",
+  "Felpa con cappuccio",
+  "Nano da giardino",
+  "Videogioco Super Nintendo",
+];
 
 
 
-// function find(prodotti) {
-//     let productFound = false;
-//     while (!productFound) {
-//       let request = prompt("Cerca un prodotto in archivio");
-//       for (let i = 0; i < prodotti.length; i++) {
-//         if (request.toLowerCase() === prodotti[i].toLowerCase()) {
-//           alert("Il prodotto cercato è presente in archivio");
-//           productFound = true;
-//           return prodotti[i];
-//         }
-//       }
-//       alert("Il prodotto non fa parte del nostro archivio");
-//     }
-//   }
-//   find(products)
+function find(prodotti) {
+    let productFound = false;
+    while (!productFound) {
+      let request = prompt("Cerca un prodotto in archivio");
+      for (let i = 0; i < prodotti.length; i++) {
+        if (request.toLowerCase()===prodotti[i].toLowerCase()) {
+          alert("Il prodotto cercato è presente in archivio");
+          productFound = true;
+          return//prodotti[i];
+        }
+      }
+      alert("Il prodotto non fa parte del nostro archivio");
+    }
+  };
+  find(products);
 
 /*
 **Esercizio 5**
